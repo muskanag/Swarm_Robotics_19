@@ -14,15 +14,16 @@ while pings < 11:
    clientSocket2.settimeout(1)
 
    #Ping to server
-   message = input('> ').encode()
+   message1 = input('> ').encode()
+   message2 = input('> ').encode()
 
    addr1 = ("192.168.0.120", 5007)
    addr2 = ("192.168.0.127", 5007)
 
    #Send ping
    start = time.time()
-   clientSocket1.sendto(message, addr1)
-   clientSocket2.sendto(message, addr2)
+   clientSocket1.sendto(message1, addr1)
+   clientSocket2.sendto(message2, addr2)
 
    #If data is received back from server, print
    try:
