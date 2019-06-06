@@ -12,6 +12,12 @@ y = (0, 0)
 theta = 0
 phi = 0
 
+def distance(pt1, pt2):
+    x = pt1[0] - pt2[0]
+    y = pt1[1] - pt2[1]
+    distance = math.sqrt(x*x + y*y)
+    print(distance)
+
 def angle_calculate(pt1, pt2):
 
     a = pt2[0]-pt1[0]
@@ -21,9 +27,9 @@ def angle_calculate(pt1, pt2):
     return int(angle)
 
 def allignment(theta, phi):
-    if 0<=theta-phi<=5:
+    if 0<=theta-phi<=2:
         print("forward")
-    elif 0<=phi-theta<=5:
+    elif 0<=phi-theta<=2:
         print("forward")
     else:
         print("right")
@@ -86,8 +92,8 @@ def aruco_detect(frame, robot):
             robot[int(ids[marker])]=(int(x_center), int(y_center), int(theta))
     
         phi = angle_calculate(x, y)
-        print('phi',phi)
         allignment(theta, phi)
+        #return direction
     start = 0
     start_time_update = time.time()
 
