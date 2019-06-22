@@ -18,7 +18,7 @@ while pings < 11:
    message2 = input('> ').encode()
 
    addr1 = ("192.168.0.120", 5007)
-   addr2 = ("192.168.0.127", 5007)
+   addr2 = ("192.168.0.103", 5007)
 
    #Send ping
    start = time.time()
