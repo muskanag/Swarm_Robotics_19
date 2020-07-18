@@ -13,7 +13,7 @@ We have an overhead camera mounted to capture the view of the whole aren acontin
 - Motor Driver
 - 3 wheels(2 normal wheels and 1 castor wheel)
 - NodeMCU
-- 3 5volt Battery
+- 3-5volt Battery
 - 2 IR sensors
 A overhead logitech camera was used to act as a central network.
 
@@ -21,7 +21,6 @@ A overhead logitech camera was used to act as a central network.
 
 ---
 
-### Computer Vision
 # Aruco Marker generation and Detection
 We used OpenCV in python to generate and detect the ArUco Marker. The axes in ArUco markers are in pre-defined orientation and can be found by finding angle between one of the side of arena and x-axis of marker. Then apply cropping, and perspective transform to get final image of arena.
 
