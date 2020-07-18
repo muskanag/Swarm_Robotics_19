@@ -16,3 +16,16 @@ We have an overhead camera mounted to capture the view of the whole aren acontin
 A overhead logitech camera was used to act as a central network.
 
 ![Hardwareof our robot](https://github.com/muskanag/Swarm_Robotics_19/blob/master/hardware.jpg)
+
+### Computer Vision
+# Aruco Marker generation and Detection
+We used OpenCV in python to generate and detect the ArUco Marker. The axes in ArUco markers are in pre-defined orientation and can be found by finding angle between one of the side of arena and x-axis of marker. Then apply cropping, and perspective transform to get final image of arena.
+
+# Getting the Goal Location
+The GUI gets input of the shape drawn by the user(certain pixels in image of arena make one cell on GUI). Then the shape is selected depending on the number of robots.
+
+# Planning the Path
+We used CBS(Conflict-Based Search) path planning algorithm. CBS is a two level algorithm that does not convert the problem into the single 'joint agent' model. At the high level, a search is performed on a Conflict Tree(CT) which is a tree based on conflicts between individual agents.
+
+# Communication between Robots
+We used NodeMCU to share the data robot and the central server. They shared the information like the current position of the robot and it's and final goal, it's orientation. Then NodeMCU drives motors through motor driver to ultimately reach final location.
