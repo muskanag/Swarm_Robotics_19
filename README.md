@@ -9,7 +9,7 @@ We have an overhead camera mounted to capture the view of the whole aren acontin
 
 ### Hardware used for the robot:
 -Motor Driver
--3 wheels(2 wheels and 1 castor wheel)
+-3 wheels(2 normal wheels and 1 castor wheel)
 -NodeMCU
 -3 5volt Battery
 -2 IR sensors
