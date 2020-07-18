@@ -7,6 +7,8 @@ We have an overhead camera mounted to capture the view of the whole aren acontin
 
 ![GUI](https://github.com/muskanag/Swarm_Robotics_19/blob/master/GUI.png)   ![GUI with shape given by the user](https://github.com/muskanag/Swarm_Robotics_19/blob/master/GUIwithshape.png)
 
+---
+
 ### Hardware used for the robot:
 - Motor Driver
 - 3 wheels(2 normal wheels and 1 castor wheel)
