@@ -8,14 +8,16 @@ We have an overhead camera mounted to capture the view of the whole aren acontin
 ![GUI](https://github.com/muskanag/Swarm_Robotics_19/blob/master/GUI.png)   ![GUI with shape given by the user](https://github.com/muskanag/Swarm_Robotics_19/blob/master/GUIwithshape.png)
 
 ### Hardware used for the robot:
--Motor Driver
--3 wheels(2 normal wheels and 1 castor wheel)
--NodeMCU
--3 5volt Battery
--2 IR sensors
+- Motor Driver
+- 3 wheels(2 normal wheels and 1 castor wheel)
+- NodeMCU
+- 3 5volt Battery
+- 2 IR sensors
 A overhead logitech camera was used to act as a central network.
 
 ![Hardwareof our robot](https://github.com/muskanag/Swarm_Robotics_19/blob/master/hardware.jpg)
+
+---
 
 ### Computer Vision
 # Aruco Marker generation and Detection
