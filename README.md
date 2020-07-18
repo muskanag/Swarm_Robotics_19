@@ -16,6 +16,7 @@ We have an overhead camera mounted to capture the view of the whole aren acontin
 - NodeMCU
 - 3-5volt Battery
 - 2 IR sensors
+
 A overhead logitech camera was used to act as a central network.
 
 ![Hardwareof our robot](https://github.com/muskanag/Swarm_Robotics_19/blob/master/hardware.jpg)
